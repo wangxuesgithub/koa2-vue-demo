@@ -28,7 +28,7 @@ npm install
 //第三步
 npm run dev
 //第四步:启动mongodb
-mongod --dbpath XXXX(可以随便建个文件夹，这里是该文件夹的地址，将来用来存放数据)
+mongod
 //第五步
 npm run _server:dev
 ```
