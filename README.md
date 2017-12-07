@@ -1,7 +1,7 @@
 # 基于 koa2 & mongoose & vue & iView 的全栈式开发demo
 
 ## node版本要求：
-由于Koa2 使用了异步函数，其中Node.js版本要求不能底于v7.6.0
+由于Koa2 使用了异步函数，其中Node.js版本要求不能低于v7.6.0
 
 ## 操作步骤：
 * 地址栏输入localhost:8080
@@ -10,8 +10,8 @@
 * 登录成功后进入主页
 
 ## 功能：
-* 基于koa2异步上传图片的实现
-* 基于mongoose 操作数据库
+* 后台基于koa2  busboy异步上传图片的实现，基于mongoose 操作数据库
+* 前台基于vue & iView 实现页面交互
 
 ## 在线预览
 ![image](images/register.png)
